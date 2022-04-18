@@ -6,7 +6,9 @@
   cmake --build build/release -j 5
 )
 
-result=$?
-if [ ${result} == 0 ]; then
-  ./bin/app
-fi
+echo "Look in ./bin for your executables"
+
+# result=$?
+# if [ ${result} == 0 ]; then
+#   ./bin/app
+# fi
